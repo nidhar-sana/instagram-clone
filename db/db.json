@@ -1,0 +1,211 @@
+ {
+    "posts": [
+        {
+            "id": 1,
+            "user": {
+                "id": 101,
+                "username":"json_doe",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+            "image": "src/assets/photo-natural.png",
+            "cation": "Beautiful sunset #Nature",
+            "likes": 120,
+            "comments": [
+                {
+                    "user": "alice_wonder",
+                    "comments": "wow! Amazing shot!"
+                },
+                {
+                    "user": "mark_92",
+                    "comments": "Where is this place?"
+                }
+            ],
+            "timestamp": "2025-02-11T14:30:00Z"
+        },
+        {
+             "id": 2,
+            "user": {
+                "id": 102,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+            "image": "src/assets/photo-natural.png",
+            "cation": "coffee first #MondayMotivation",
+            "likes": 444,
+            "comments": [
+                {
+                    "user": "john_doe",
+                    "comments": "I need this coffee right now!"
+                }
+
+            ],
+            "timestamp":"2025-02-11T15:30:00Z"
+
+        },
+        {
+             "id": 3,
+            "user": {
+                "id": 103,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/coffee-image.png"
+            },
+            "image": "src/assets/cold_coffee.png",
+            "cation": "coffee first #MondayMotivation",
+            "likes": 777,
+            "comments": [
+                {
+                    "user": "john_doe",
+                    "comments": "I need this coffee right now!"
+                }
+
+            ],
+            "timestamp":"2025-02-11T16:30:00Z"
+        },
+        {
+             "id": 4,
+            "user": {
+                "id": 104,
+                "username":"lee",
+                "profile_pic": "src/assets/spicy_images.png"
+            },
+            "image": "src/assets/spicy-food.png",
+            "cation": "I love it! #coldcoffee",
+            "likes": 555,
+            "comments": [
+                {
+                    "user": "john_reya",
+                    "comments": "I need this spicy food right now!"
+                }
+
+            ],
+            "timestamp":"2025-02-11T17:30:00Z"
+        },
+        {
+             "id": 5,
+            "user": {
+                "id": 105,
+                "username":"sarah",
+                "profile_pic": "src/assets/fresh_juice.png"
+            },
+            "image": "src/assets/juice.png",
+            "cation": "juice first #happysunday",
+            "likes": 255,
+            "comments": [
+                {
+                    "user": "its_reya",
+                    "comments": "its nice!"
+                }
+
+            ],
+            "timestamp":"2025-02-11T18:30:00Z"
+        }
+    ],
+    "profile":{
+                "id": 102,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+            "suggestions": [
+                 {
+                "id": 101,
+                "username":"json_doe",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+{
+                "id": 102,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+            {
+            "id": 103,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/coffee-image.png"
+            },
+            {
+                "id": 104,
+                "username":"lee",
+                "profile_pic": "src/assets/spicy_images.png"
+            },
+            {
+                "id": 105,
+                "username":"sarah",
+                "profile_pic": "src/assets/fresh_juice.png"
+            }
+            ],
+     "story": [
+        {
+            "id": 1,
+            "user": {
+                "id": 101,
+                "username":"json_doe",
+                "profile_pic": "src/assets/stylesh-image copy.png"
+            },
+            "image": "src/assets/stylesh-image copy.png"
+        },
+        {
+             "id": 2,
+            "user": {
+                "id": 102,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/natural-image.png"
+            },
+            "image": "src/assets/storyimages copy.png"
+        },
+        {
+             "id": 3,
+            "user": {
+                "id": 103,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/storyimage copy.png"
+            },
+            "image": "src/assets/storyimage copy.png"
+        },
+        {
+             "id": 4,
+            "user": {
+                "id": 104,
+                "username":"lee",
+                "profile_pic": "src/assets/story-images.png"
+            },
+            "image": "src/assets/story-images.png"
+        },
+        {
+             "id": 5,
+            "user": {
+                "id": 105,
+                "username":"sarah",
+                "profile_pic": "src/assets/story--images copy.png"
+            },
+            "image": "src/assets/story--images copy.png"
+        }
+    ],
+    "followers" : [
+        {
+            "id": 101,
+                "username":"json_doe",
+                "profile_pic": "src/assets/stylesh-image copy.png"
+        },
+    {
+        "id": 102,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/natural-image.png"
+    },
+    {
+         "id": 103,
+                "username":"sarah_lee",
+                "profile_pic": "src/assets/storyimage copy.png"
+    },
+    {
+        "id": 104,
+                "username":"lee",
+                "profile_pic": "src/assets/story-images.png"
+    },
+    {
+        "id": 105,
+                "username":"sarah",
+                "profile_pic": "src/assets/story--images copy.png"
+    }
+    ]
+ }
+
+ 
