@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function Sidebar() {
   const navigate = useNavigate();
+  
   return (
     <div className="m-3 position-fixed">
       <div className="d-flex flex-column gap-3">

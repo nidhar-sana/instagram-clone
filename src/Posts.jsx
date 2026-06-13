@@ -15,8 +15,12 @@ function Posts() {
           {posts.map((post) => (
             <div className="my-3" key={post.id}>
               <div className=" d-flex">
-                <img  className="dp rounded-circle" src={post.user.profile_pic} alt="profile pic"/>
-              <h5>{post.user.username}</h5>
+                <img
+                  className="dp rounded-circle"
+                  src={post.user.profile_pic}
+                  alt="profile pic"
+                />
+                <h5>{post.user.username}</h5>
               </div>
               <img className="image" src={post.image} alt="post" />
               <div>
@@ -26,7 +30,6 @@ function Posts() {
               </div>
               <div>
                 <b>{post.likes}Likes</b>
-
               </div>
               <p>{post.cation}</p>
             </div>
